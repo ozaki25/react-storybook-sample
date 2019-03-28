@@ -12,6 +12,14 @@
     "react-scripts": "2.1.8",
     "typescript": "3.3.4000"
   },
+  "devDependencies": {
+    "@storybook/react": "^5.0.5",
+    "@storybook/addon-actions": "^5.0.5",
+    "@storybook/addon-links": "^5.0.5",
+    "@storybook/addons": "^5.0.5",
+    "@babel/core": "^7.4.0",
+    "babel-loader": "^8.0.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -28,13 +36,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "@storybook/react": "^5.0.5",
-    "@storybook/addon-actions": "^5.0.5",
-    "@storybook/addon-links": "^5.0.5",
-    "@storybook/addons": "^5.0.5",
-    "@babel/core": "^7.4.0",
-    "babel-loader": "^8.0.5"
-  }
+  ]
 }
