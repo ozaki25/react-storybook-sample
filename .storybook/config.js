@@ -3,8 +3,10 @@ import { withKnobs } from '@storybook/addon-knobs';
 
 addDecorator(withKnobs);
 
+const req = require.context('../src/', true, /stories.(js|tsx)$/);
+
 function loadStories() {
-  require('../src/stories');
+  req.keys().forEach(req);
 }
 
 configure(loadStories, module);
