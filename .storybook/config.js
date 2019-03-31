@@ -1,7 +1,7 @@
 import { addDecorator, configure } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withInfo } from '@storybook/addon-info';
-import { initScreenshot } from 'storybook-chrome-screenshot';
+import { initScreenshot, withScreenshot } from 'storybook-chrome-screenshot';
 
 addDecorator(withKnobs);
 addDecorator(withInfo);
