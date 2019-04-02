@@ -11,10 +11,11 @@
   "plugins": {
     "reg-keygen-git-hash-plugin": {},
     "reg-notify-github-plugin": {
-      "clientId": "MzS3MLI0MjQy1y9KTUwu0S0uyS+qTMrPz9YtTswtyEnVtzAwMDEy0s+vSszONDIFAA=="
+      "clientId": "$GITHUB_CLIENT_ID"
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "$S3_BUCKET_NAME"
+      "bucketName": "$S3_BUCKET_NAME",
+      "pathPrefix": "$S3_PATH_PREFIX"
     }
   }
 }
