@@ -1,13 +1,16 @@
 import React from 'react';
 import { css } from 'emotion';
 
-const style = css({
-  backgroundColor: 'skyblue',
-  border: '1px solid skyblue',
-  borderRadius: '4px',
-  color: 'white',
-  padding: '4px 8px',
-});
+const style = css`
+  background-color: plum;
+  border: 1px solid plum;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  &:focus {
+    opacity: 0.6;
+  }
+`;
 
 type Props = {
   children: string;
