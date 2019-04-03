@@ -5,4 +5,4 @@ import Text from '.';
 
 const stories = storiesOf('components/Text', module);
 
-stories.add('テキスト', () => <Text>{text('children', '文字列')}</Text>);
+stories.add('テキスト', () => <Text>{text('children', 'sample text')}</Text>);
