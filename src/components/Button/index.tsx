@@ -4,7 +4,7 @@ import { css } from 'emotion';
 const style = css`
   background-color: black;
   border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 5px;
   color: white;
   padding: 4px 8px;
   &:focus {
