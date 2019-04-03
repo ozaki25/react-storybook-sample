@@ -6,6 +6,8 @@ jobs:
     working_directory: ~/repo
     steps:
       - run: apt-get install -y locales task-japanese
+      - run: locale-gen ja_JP.UTF-8
+      - run: localedef -f UTF-8 -i ja_JP ja_JP
       - checkout
       - restore_cache:
           keys:
