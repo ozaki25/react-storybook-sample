@@ -5,7 +5,12 @@ import { withScreenshot } from 'zisui';
 
 addDecorator(withKnobs);
 addDecorator(withInfo);
-addDecorator(withScreenshot());
+addDecorator(withScreenshot({
+  viewport: {
+    width: 600,
+    height: 400,
+  },
+ }));
 
 const req = require.context('../src/', true, /stories.(js|tsx)$/);
 
