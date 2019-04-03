@@ -2,8 +2,8 @@ import React from 'react';
 import { css } from 'emotion';
 
 const style = css`
-  background-color: plum;
-  border: 1px solid plum;
+  background-color: teal;
+  border: 1px solid teal;
   border-radius: 4px;
   color: white;
   padding: 4px 8px;
