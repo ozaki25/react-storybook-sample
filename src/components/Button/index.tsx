@@ -2,9 +2,9 @@ import React from 'react';
 import { css } from 'emotion';
 
 const style = css`
-  background-color: teal;
-  border: 1px solid teal;
-  /* border-radius: 6px; */
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 4px;
   color: white;
   padding: 4px 8px;
   &:focus {
